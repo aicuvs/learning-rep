@@ -1,19 +1,11 @@
-\documentclass[UTF8]{ctexart}
-\title{我的第一个 LaTeX 文档} % 标题
-\author{作者} % 作者
-\date{\today} % 日期
+\documentclass{ctexart}
+
+\title{论文标题}                  % 标题（必填，想渲染标题区就必须定义）
+\author{张三 \and 李四}           % 作者，\and 分隔多位作者
+\date{\today}                     % 日期：\today 自动当天；{} 空参数表示不显示
 
 \begin{document}
-\maketitle % 生成标题
 
-\section{引言} % 章节
-这是我的第一个 LaTeX 文档！\\ % 换行
-这是一个简单的段落。
+\maketitle                        % 在这里渲染标题区（居中的标题、作者、日期）
 
-\section{数学公式}
-这是一个行内公式：$E = mc^2$。\\ % 行内公式
-这是一个行间公式：
-\[
-\int_a^b f(x) \, dx
-\]
 \end{document}
