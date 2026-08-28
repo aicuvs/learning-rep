@@ -70,3 +70,8 @@ Testing/
 
 #配置文件
 /.vscode/
+latex.aux
+latex.fdb_latexmk
+latex.fls
+latex.pdf
+latex.synctex.gz
