@@ -1,9 +1,1 @@
-#include <iostream>
-
-using namespace std;
-
-int main()
-{
-    cout << 123;
-    system("pause");
-}
+print('Hello World')
