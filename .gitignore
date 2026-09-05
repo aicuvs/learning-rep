@@ -70,6 +70,8 @@ Testing/
 
 #配置文件
 /.vscode/
+
+#Latex辅助文件
 latex.aux
 latex.fdb_latexmk
 latex.fls
